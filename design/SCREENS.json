@@ -1,0 +1,121 @@
+{
+  "project": "DocuFlow — Enterprise Document Management Platform",
+  "figma_file": "O8Ub8UtjjfykaMXBSJY7AI",
+  "frame_size": { "width": 1440, "height": 900 },
+  "total_screens": 22,
+  "pages": [
+    {
+      "name": "🎨 Foundations",
+      "index": 0,
+      "purpose": "Design tokens — color variables, typography, spacing, radius, shadow"
+    },
+    {
+      "name": "🧩 Components",
+      "index": 1,
+      "component_count": 28,
+      "components": [
+        "Button/Primary", "Button/Secondary", "Button/Ghost", "Button/Danger", "Button/Success",
+        "Button/Primary/Small", "Button/Primary/Medium", "Button/Primary/Large",
+        "Badge/Status/Draft", "Badge/Status/Under Review", "Badge/Status/Approved",
+        "Badge/Status/Rejected", "Badge/Status/Revision Requested", "Badge/Status/Pending",
+        "Input/Default", "Input/Focus", "Input/Filled", "Input/Error",
+        "Card/Stat/Total Documents", "Card/Stat/Pending Approvals",
+        "Card/Stat/Approved Today", "Card/Stat/Rejected",
+        "File Card/Approved", "File Card/Under Review",
+        "File Card/Revision Requested", "File Card/Rejected",
+        "Sidebar/Navigation"
+      ]
+    },
+    {
+      "name": "🔐 Authentication",
+      "index": 2,
+      "screens": [
+        { "name": "Screen / Login", "x": 0 },
+        { "name": "Screen / OTP Verification", "x": 1480 },
+        { "name": "Screen / Forgot Password", "x": 3000 },
+        { "name": "Screen / Reset Password", "x": 4520 },
+        { "name": "Screen / Password Reset Success", "x": 6040 }
+      ],
+      "prototype_connections": [
+        "Login → OTP Verification (Sign In button)",
+        "Login → Forgot Password (Forgot link)",
+        "OTP → Dashboard (Verify button)",
+        "Forgot Password → Reset Password (Send Reset Link)",
+        "Forgot Password → Login (Back to Sign In)",
+        "Reset Password → Password Reset Success (Reset button)",
+        "Password Reset Success → Login (Go to Sign In)"
+      ]
+    },
+    {
+      "name": "📊 Dashboard",
+      "index": 3,
+      "screens": [
+        { "name": "Screen / Dashboard", "x": 0 },
+        { "name": "Screen / Analytics & Reporting", "x": 1520 }
+      ]
+    },
+    {
+      "name": "📁 Projects",
+      "index": 4,
+      "screens": [
+        { "name": "Screen / Projects List", "x": 0 },
+        { "name": "Screen / Project Detail", "x": 1480 }
+      ]
+    },
+    {
+      "name": "📄 Documents",
+      "index": 5,
+      "screens": [
+        { "name": "Screen / Documents", "x": 0 },
+        { "name": "Screen / Upload Document Modal", "x": 1480 },
+        { "name": "Screen / Upload Success", "x": 2960 },
+        { "name": "Screen / Document Detail", "x": 4480 }
+      ]
+    },
+    {
+      "name": "✅ Review & Approval",
+      "index": 6,
+      "screens": [
+        { "name": "Screen / Review Queue", "x": 0 },
+        { "name": "Screen / Reject Modal", "x": 1480 },
+        { "name": "Screen / Approve Modal", "x": 3000 },
+        { "name": "Screen / Review Queue (Post-Approval)", "x": 4520 }
+      ],
+      "prototype_connections": [
+        "Review Queue → Approve Modal (Approve button)",
+        "Review Queue → Reject Modal (Reject button)",
+        "Approve Modal → Post-Approval Queue (Confirm Approval)",
+        "Approve Modal → Review Queue (Cancel / Close)",
+        "Reject Modal → Review Queue (Cancel / Confirm Reject)"
+      ]
+    },
+    {
+      "name": "🔔 Notifications",
+      "index": 7,
+      "screens": [
+        { "name": "Screen / Notifications", "x": 0 }
+      ]
+    },
+    {
+      "name": "⚙️ Admin Panel",
+      "index": 8,
+      "screens": [
+        { "name": "Screen / Admin Panel", "x": 0 },
+        { "name": "Screen / Branding & Customization", "x": 1520 }
+      ]
+    },
+    {
+      "name": "🛡️ System Admin",
+      "index": 9,
+      "screens": [
+        { "name": "Screen / System Admin", "x": 0 },
+        { "name": "Screen / System Settings", "x": 1520 }
+      ]
+    },
+    {
+      "name": "🔄 Prototype Flow",
+      "index": 10,
+      "purpose": "All screens as 35%-scale thumbnails on a single canvas for cross-page prototype navigation"
+    }
+  ]
+}
