@@ -51,7 +51,7 @@
 ### ✅ Review & Approval (4 screens)
 - **Screen / Review Queue** — Priority-sorted document list with approve/reject actions
 - **Screen / Reject Modal** — Rejection reason selection + comment field
-- **Screen / Approve Modal** — Approval note + checklist + confirm button
+- **Screen / Approve Modal** — Document info panel, optional comment field, standardized Cancel (212×48px) + Approve Document (212×48px) buttons with 10px radius and consistent 20px/12px padding
 - **Screen / Review Queue (Post-Approval)** — Success toast + updated document status
 
 ### 🔔 Notifications (1 screen)
@@ -63,7 +63,7 @@
 
 ### 🛡️ System Admin (2 screens)
 - **Screen / System Admin** — Platform overview, system health indicators
-- **Screen / System Settings** — Tabbed settings (Authentication & Login, Password Policy, Danger Zone)
+- **Screen / System Settings** — Tabbed settings (General, Security, Integrations, Notifications, Audit Log) with 4-card grid layout: General Settings, Security & Access, Workflow & Approvals, System Status
 
 ---
 
