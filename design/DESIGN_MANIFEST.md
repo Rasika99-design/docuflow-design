@@ -96,17 +96,40 @@ Caption  — Inter Regular 12px / 18px
 Label    — Inter Semi Bold 12px / 16px
 ```
 
-### Spacing Tokens
+### Spacing Tokens (8px grid system)
 ```
-spacing/1   4px
-spacing/2   8px
-spacing/3   12px
-spacing/4   16px
-spacing/5   20px
-spacing/6   24px
-spacing/8   32px
-spacing/10  40px
-spacing/12  48px
+spacing/1   4px   — Icon gap, tight inline
+spacing/2   8px   — Input/badge internal gap
+spacing/3   12px  — Button padding vertical, chip padding
+spacing/4   16px  — Card internal row gap
+spacing/5   20px  — Button padding horizontal
+spacing/6   24px  — Card padding, section gap
+spacing/8   32px  — Modal padding, content area padding
+spacing/10  40px  — Section vertical gap
+spacing/12  48px  — Button height (large), top bar height base
+spacing/16  64px  — Top bar height, sidebar header
+```
+
+### Layout Grid
+```
+Sidebar width:       240px
+Top bar height:       64px
+Content start X:     272px (240 + 32 margin)
+Content padding:      32px (left/right)
+Card internal pad:    20–24px
+Section gap:          16–24px
+Card corner radius:   12px
+Modal corner radius:  16px
+Button height:        44px (standard) / 48px (large)
+Button padding H:     20px
+Input height:         44px
+Input padding H:      14px
+Input corner radius:   8px
+Badge padding H:       8px
+Badge corner radius:   6px
+Form row height:      52–56px
+Table row height:     52–56px
+Stat card:         272×88px
 ```
 
 ### Component Library (28 components)
